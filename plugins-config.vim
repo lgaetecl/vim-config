@@ -1,11 +1,15 @@
 " NERDTree 
-map <C-z> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store$', '\.git$']
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
-"'' Go ''"
+
+" Go 
 let g:go_code_completion_enabled = 0
 let g:go_fmt_command = "goimports"
 let g:go_gpls_enabled = 0
