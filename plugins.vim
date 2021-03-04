@@ -6,6 +6,7 @@ Plug 'cespare/vim-toml'
 Plug 'stephpy/vim-yaml'
 Plug 'elzr/vim-json'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'hashivim/vim-terraform'
 
 " Files Manipulation
 Plug 'preservim/nerdtree'
