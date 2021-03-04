@@ -5,6 +5,7 @@
 - Vim-Plug
 - Python 3.5+
 - gocode (go get -u github.com/stamblerre/gocode) 
+- pynvim (pip3 install --user pynvim)
 
 ## Checkout
 
