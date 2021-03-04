@@ -13,7 +13,7 @@
 git clone https://github.com/lgaetecl/vim-config.git ~/.vim
 ```
 
-## Config .vimrc o .config*/nvim/init.vim  
+## Config .vimrc o .config/nvim/init.vim  
 
 ```sh
 call plug#begin('~/.vim/plugged')
